@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor Financeiro - Registro</title>
+
+    <link id="themeStylesheet" rel="stylesheet" href="dark_theme.css">
+</head>
+<body>
+    <div class="container">
+
+        <div id="theme-selector-container">
+            <label for="themeSelector">Selecione o Tema:</label>
+            <select id="themeSelector">
+                <option value="dark_theme.css">Tema Escuro</option>
+                <option value="light_theme.css">Tema Claro</option>
+                <option value="cyberpunk_theme.css">Tema Cyberpunk</option>
+            </select>
+        </div>
+
+        <div id="register-screen" class="screen hidden">
+            <h2>Registro</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="E-mail" required>
+                <input type="password" placeholder="Senha" required>
+                <input type="password" placeholder="Confirmar Senha" required>
+                <button type="submit">Registrar</button>
+                <p>Já tem uma conta? <a href="#" id="login-link">Login</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Fundo escuro */
+    color: #ffffff; /* Texto padrão claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(135deg, #1a1a1a 25%, #333 75%); /* Gradiente escuro */
+    background-size: cover;
+}
+
+/* Estilo do container */
+.container {
+    background-color: #262626; /* Fundo cinza escuro */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1); /* Sombra leve clara */
+    border: 2px solid #444; /* Borda cinza escuro */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #ffffff; /* Título claro */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: #333; /* Fundo escuro */
+    color: #ffffff; /* Texto claro */
+    border: 1px solid #555; /* Borda cinza */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #444; /* Cinza escuro */
+    color: #ffffff; /* Texto claro */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555; /* Cinza mais claro */
+}
+
+p a {
+    color: #ffffff; /* Texto claro */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Texto claro */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    text-align: left;
+}
+
+form p {
+    margin-top: 12px;
+}
+
+/* Estilização para o seletor de tema no canto inferior direito */
+#theme-selector-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333; /* Fundo escuro */
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+#themeSelector {
+    background-color: #444; /* Cinza escuro */
+    color: #fff; /* Texto claro */
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#themeSelector:hover {
+    background-color: #555; /* Cinza mais claro */
+}

@@ -1,0 +1,123 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5; /* Fundo claro */
+    color: #333; /* Texto padrão escuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(135deg, #f8f8f8 25%, #ffffff 75%);
+    background-size: cover;
+}
+
+/* Estilo do container */
+.container {
+    background-color: #ffffff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    border: 2px solid #dddddd; /* Borda */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333; /* Título escuro */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: #f9f9f9; /* Fundo claro */
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #333; /* Preto */
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555; /* Cinza escuro */
+}
+
+p a {
+    color: #333; /* Preto */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333; /* Preto */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    text-align: left;
+}
+
+form p {
+    margin-top: 12px;
+}
+
+/* Estilização para o seletor de tema no canto inferior direito */
+#theme-selector-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+#themeSelector {
+    background-color: #333; /* Preto */
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#themeSelector:hover {
+    background-color: #555; /* Cinza escuro */
+}

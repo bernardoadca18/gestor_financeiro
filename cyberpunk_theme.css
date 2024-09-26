@@ -1,0 +1,125 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d; /* Preto profundo */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(135deg, #1f1f1f 25%, #141414 75%);
+    background-size: cover;
+}
+
+/* Estilo do container */
+.container {
+    background-color: rgba(20, 20, 20, 0.9); /* Fundo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3), 0 0 40px rgba(0, 255, 255, 0.2);
+    border: 2px solid #00ffff; /* Borda neon */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #00ffff; /* Ciano neon */
+    text-shadow: 0 0 10px #00ffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: #1a1a1a;
+    color: #00ffff;
+    border: 1px solid #00ffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #ff00ff; /* Botão rosa neon */
+    color: #0d0d0d;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e600e6;
+}
+
+p a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #ff00ff;
+    text-decoration: underline;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff00ff;
+}
+
+.content {
+    text-align: left;
+}
+
+form p {
+    margin-top: 12px;
+}
+
+/* Estilização para o seletor de tema no canto inferior direito */
+#theme-selector-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3a3a3a;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+#themeSelector {
+    background-color: #2b2b2b;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#themeSelector:hover {
+    background-color: #444;
+}
